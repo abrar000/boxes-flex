@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+.container{
+   
+}
+
+.boxes{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li{
+    background: rgb(71, 255, 169);
+    padding: 5px;
+   flex-basis: 13rem;
+    height: 150px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    line-height: 150px;
+}
